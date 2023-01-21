@@ -94,6 +94,7 @@ public class Timer : MonoBehaviour
             lMusic.SetActive(false);
             see.disableRobot();
             timerText.enabled = false;
+            Application.Quit();
         }
         else
         {
@@ -116,6 +117,7 @@ public class Timer : MonoBehaviour
             vMusic.SetActive(false);
             see.disableRobot();
             timerText.enabled = false;
+            Application.Quit();
         }
         else
         {
